@@ -1,0 +1,61 @@
+#container {
+  width: 60vw;
+  justify-content: center;
+  display: flex;
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #eee;
+}
+
+#container-text {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-height: 200px;
+}
+
+#container-text2 {
+  display: flex;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 45px;
+}
+
+#container-buttons {
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.texto {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-log {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+TextField {
+  height: 30px;
+}
+
+textarea {
+  width: 90%;
+  min-height: 162px;
+}
